@@ -1,11 +1,6 @@
-#from _typeshed import OpenTextModeWriting
-#from typing import TYPE_CHECKING
-#if TYPE_CHECKING:
-#    from _typeshed import OpenTextModeWriting
 import torch
 import torch.nn as nn
 import tools as T # pip install tools-jsyoo61
-import tools.torch
 
 # %%
 class ReduceBlock1(nn.Module): # stride size =1

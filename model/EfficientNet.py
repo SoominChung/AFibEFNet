@@ -1,7 +1,11 @@
 import torch
 import torch.nn as nn
-import pdb
-from torch.utils.data import Dataset
+
+## Code based on below links
+## https://github.com/zsef123/EfficientNets-PyTorch/blob/master/models/effnet.py
+## https://github.com/katsura-jp/efficientnet-pytorch/blob/master/model/efficientnet.py
+## https://deep-learning-study.tistory.com/563
+
 
 # Swish activation function
 class Swish(nn.Module):

@@ -3,6 +3,10 @@ import torch.nn as nn
 from torch.autograd import Variable
 import math
 
+## Code based on below links
+## https://github.com/gilbutITbook/080289/blob/6ccdc7c0368b96ad9d4637831589041e5a905430/chap07/python_7%EC%9E%A5.ipynb#L1284
+
+
 class LSTMCell(nn.Module) :
     def __init__(self, input_size, hidden_size, bias=True) :
         super(LSTMCell, self).__init__()
