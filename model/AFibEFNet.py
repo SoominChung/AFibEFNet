@@ -2,6 +2,9 @@ import torch
 import torch.nn as nn
 import tools as T # pip install tools-jsyoo61
 
+## Code based on below links
+## https://github.com/jsyoo61/nEMGNet_DiVote
+
 # %%
 class ReduceBlock1(nn.Module): # stride size =1
     def __init__(self, in_channel=1, out_channel=64, kernel_size=5,drop_rate=0.5):
